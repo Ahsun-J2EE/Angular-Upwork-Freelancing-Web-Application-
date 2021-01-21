@@ -1,0 +1,9 @@
+.header{
+    height: 62px;
+    width: 100%;
+}
+.body{
+    height: 900px;
+    width: 100%;
+    float: left;
+}

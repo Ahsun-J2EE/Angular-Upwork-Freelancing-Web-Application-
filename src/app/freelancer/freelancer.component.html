@@ -1,0 +1,41 @@
+<div id="container">
+  <div class="left">
+    <nav>
+      <ul>
+        <li [routerLink]="['/freelancer/my-job-feed-f']">
+          My Job Feed
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/freelancer/my-current-jobs-f']">
+          My Current Jobs
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/freelancer/projectcreate']">
+          Create Project
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/freelancer/reports-f']">
+          My Project
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/freelancer/profilef']">
+          My Profile
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/freelancer/transaction-f']">
+          Transaction History
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/freelancer/proposal-f']">
+          Proposals
+          <span></span><span></span><span></span><span></span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="right">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">   
+  </div>
+</div>

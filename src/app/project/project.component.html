@@ -1,0 +1,149 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<section class="details-card">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/nature" alt="">
+                        <span>
+                            <h4>Banner Design</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Banner Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Hire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/animals" alt="">
+                        <span>
+                            <h4>Photo Editing</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Photo Editing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Hire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/tech" alt="">
+                        <span>
+                            <h4>Mobile Template</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>App Development</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Hire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<section class="details-card">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/nature" alt="">
+                        <span>
+                            <h4>Logo Design</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Logo Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Hire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/animals" alt="">
+                        <span>
+                            <h4>Illustration</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Illustration</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Hire</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-content">
+                    <div class="card-img">
+                        <img src="https://placeimg.com/380/230/tech" alt="">
+                        <span>
+                            <h4>Video Editing</h4>
+                        </span>
+                    </div>
+                    <div class="card-desc">
+                        <h3>Video Editing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo,
+                            perspiciatis
+                            voluptas totam</p>
+                        <a href="#" class="btn-card">Hire</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="btn-group btn-group-toggle">
+    <label class="btn-primary" ngbButtonLabel>
+      <input type="checkbox" ngbButton [(ngModel)]="model1.left"> Left (pre-checked)
+    </label>
+    <label class="btn-primary" ngbButtonLabel>
+      <input type="checkbox" ngbButton [(ngModel)]="model1.middle"> Middle
+    </label>
+    <label class="btn-primary" ngbButtonLabel>
+      <input type="checkbox" ngbButton [(ngModel)]="model1.right"> Right
+    </label>
+  </div>
+  <hr>
+  <pre>{{model1 | json}}</pre>
+
+  <p>Simple datepicker</p>
+
+<ngb-datepicker #dp [(ngModel)]="model" (navigate)="date = $event.next"></ngb-datepicker>
+
+<hr/>
+
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="selectToday()">Select Today</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="dp.navigateTo()">To current month</button>
+<button class="btn btn-sm btn-outline-primary mr-2" (click)="dp.navigateTo({year: 2013, month: 2})">To Feb 2013</button>
+
+<hr/>
+
+<pre>Month: {{ date.month }}.{{ date.year }}</pre>
+<pre>Model: {{ model | json }}</pre>

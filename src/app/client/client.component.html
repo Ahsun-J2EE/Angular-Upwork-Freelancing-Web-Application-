@@ -1,0 +1,42 @@
+<div id="container">
+  <div class="left">
+    <nav>
+      <ul>
+        <li [routerLink]="['/client/jobcreate']">
+          Create Job
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/client/payment-method-c']">
+          Payment Method
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/client/posted-job-c']">
+          My Posted Jobs
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/client/talent']">
+          Hire Talent
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/client/profile']">
+          My Profile
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/client/transaction-c']">
+          Transaction History
+          <span></span><span></span><span></span><span></span>
+        </li>
+        <li [routerLink]="['/client/proposal-c']">
+          Proposals
+          <span></span><span></span><span></span><span></span>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <div class="right">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">   
+  </div>
+</div>
+

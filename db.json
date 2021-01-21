@@ -1,0 +1,43 @@
+{
+  "User": [],
+  "JobPost": [
+    {
+      "Job_Title": "Banner Design",
+      "Job_Cost": "10$",
+      "Description": "I need a Professional Banner Design. Regards John Bayron",
+      "id": 1
+    }
+  ],
+  "Client": [
+    {
+      "name": "MD. Ahsun Habib",
+      "email": "ahsunhabib96bd@gmail.com",
+      "phone": 1780111111111,
+      "id": 1
+    },
+    {
+      "name": "MD. Ahsun Habib",
+      "email": "ahsunhabib96bd@gmail.com",
+      "password": 1234,
+      "id": 2
+    },
+    {
+      "name": "Siddik",
+      "email": "siddik.12gmail.com",
+      "password": 1221,
+      "id": 3
+    },
+    {
+      "name": "Siddik 121",
+      "email": "siddik.12gmail.com",
+      "password": 12345,
+      "id": 4
+    },
+    {
+      "name": "Safayet ",
+      "email": "safayet@gmail.com",
+      "password": 10105,
+      "id": 5
+    }
+  ]
+}

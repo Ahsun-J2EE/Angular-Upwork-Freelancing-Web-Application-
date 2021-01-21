@@ -1,0 +1,23 @@
+.container{
+    padding-left: 2%;
+    padding-top: 3%;
+}
+.btn-primary{
+    margin: 15px;
+}
+.design{
+    padding-left: 2%;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgreen;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 3px;
+}
+h2{
+    border: 1px;
+    border-style: solid;
+    border-color:darkblue;
+    padding: 15px;
+    border-radius: 5px;
+}
